@@ -63,3 +63,22 @@ a{
 button:hover{
     background-color: blueviolet;
 }
+
+/*Adaptation mobile*/
+@media screen and (max-width:560px) {
+    .formulario{
+        width: 370px;
+    }
+    input{
+        font-size: 1em;
+        width: 300px;
+    }
+    input[type=submit]{
+        font-size: 1em;
+        width: 100px;
+    }
+    label{
+        font-size: 1em;
+    }
+    
+}
